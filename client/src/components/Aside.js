@@ -25,7 +25,7 @@ const Aside = () => {
                 <h4 className='text-xl font-semibold mb-2'>Learnable ‘22</h4>
             </div>
             <div className=' bg-[#E4E7EC] text-md px-6 py-1 text-[#475467]'>Groups</div>
-            <ul className="space-y-2 font-medium">
+            <ul className="space-y-1 font-medium">
                 <li>
                     <a href="https://google.com" className="flex items-center py-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                     <span className='text-xl pl-6 text-[#667085]'><FaUsers /> </span>
@@ -53,7 +53,7 @@ const Aside = () => {
                 
             </ul>
             <div className=' bg-[#E4E7EC] text-md px-6 py-1 text-[#475467]'>Links</div>
-            <ul className="space-y-2 font-medium">
+            <ul className="space-y-1 font-medium">
                 <li>
                     <a href="https://google.com" className="flex items-center py-1 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
                     <span className='text-xl pl-6 text-[#667085]'><BiHelpCircle /> </span>
@@ -83,10 +83,6 @@ const Aside = () => {
 
         </div>
         </aside>
-
-        <div className="p-4 sm:ml-64 flex flex-col justify-center items-center"> 
-            <Table />
-        </div>
     </>
   )
 }

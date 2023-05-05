@@ -34,29 +34,29 @@ const Table = () => {
       function handleSubmit(e) {
         e.preventDefault();
         console.log(formData);
-    //     fetch('https://scuudu-app.onrender.com/api/v1/contact', {
-    //     method: 'POST',
-    //     headers: { 'Content-Type': 'application/json' },
-    //     body: JSON.stringify(formData)
-    //   })
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       console.log(data);
-    //       setFormData({
-    //         user1: "", 
-    //         role1: "", 
-    //         user2: "", 
-    //         role2: "", 
-    //         user3: "", 
-    //         role3: "", 
-    //         user4: "", 
-    //         role4: "", 
-    //         user5: "", 
-    //         role5: "", 
-    //         group_title: ""
-    //       });
-    //     })
-    //     .catch(error => console.error(error));
+        fetch('https://school-list.onrender.com/form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      })
+        .then(response => response.json())
+        .then(data => {
+          console.log(data);
+          setFormData({
+            user1: "", 
+            role1: "", 
+            user2: "", 
+            role2: "", 
+            user3: "", 
+            role3: "", 
+            user4: "", 
+            role4: "", 
+            user5: "", 
+            role5: "", 
+            group_title: ""
+          });
+        })
+        .catch(error => console.error(error));
       }
     function handleAdder() {
         setAdder(false) 

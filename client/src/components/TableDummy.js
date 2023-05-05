@@ -11,13 +11,13 @@ const TableDummy = (props) => {
             <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                 <thead className="text-xs text-gray-700 uppercase dark:text-gray-400">
                     <tr>
-                        <th scope="col" className="px-2 py-3">
+                        <th scope="col" className="px-2 py-3 bg-gray-400 dark:bg-gray-800">
                             SN
                         </th>
-                        <th scope="col" className="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                        <th scope="col" className="px-6 py-3 bg-gray-400 dark:bg-gray-800">
                             Name
                         </th>
-                        <th scope="col" className="px-6 py-3">
+                        <th scope="col" className="px-6 py-3 bg-gray-400 dark:bg-gray-800">
                             Role
                         </th>
                         
@@ -51,8 +51,8 @@ const TableDummy = (props) => {
                         <td className="px-2 py-5">
                             3
                         </td>
-                        <th scope="row" className=" w-[250px]px-6 py-4 font-medium text-gray-700 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
-                            Tappi Headstrong
+                        <th scope="row" className=" w-[250px] px-6 py-4 font-medium text-gray-700 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">
+                            Mo Salah
                         </th>
                         <td className="px-6 max-w-[90px]">
                             Designer
